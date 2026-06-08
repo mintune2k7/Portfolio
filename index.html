@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sinh viên ĐH Công Nghệ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: 'Inter', sans-serif; }
+        .tech-card:hover { transform: translateY(-5px); transition: 0.3s; border-color: #38bdf8; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-sky-400 mb-2">[TÊN CỦA BẠN]</h1>
+            <p class="text-xl text-slate-400">Sinh viên Khoa CNTT - Đại học Công nghệ</p>
+            <div class="flex justify-center gap-4 mt-4">
+                <a href="#" class="text-2xl hover:text-sky-400"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-2xl hover:text-sky-400"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:email@gmail.com" class="text-2xl hover:text-sky-400"><i class="fas fa-envelope"></i></a>
+            </div>
+        </header>
+
+        <!-- Giới thiệu -->
+        <section class="mb-10 bg-slate-800 p-6 rounded-xl border border-slate-700">
+            <h2 class="text-2xl font-semibold mb-4 border-b border-sky-500 pb-2">Giới thiệu</h2>
+            <p class="text-slate-300">Tôi là một sinh viên đam mê công nghệ, hiện đang theo học chuyên ngành [Tên ngành, ví dụ: Kỹ thuật phần mềm]. Tôi có nền tảng tốt về cấu trúc dữ liệu, giải thuật và đang tập trung phát triển kỹ năng trong mảng [Web/AI/Mobile].</p>
+        </section>
+
+        <!-- Kỹ năng -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-4 border-b border-sky-500 pb-2">Kỹ năng chuyên môn</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-sky-900 text-sky-200 px-3 py-1 rounded-full border border-sky-700">Python</span>
+                <span class="bg-sky-900 text-sky-200 px-3 py-1 rounded-full border border-sky-700">Java</span>
+                <span class="bg-sky-900 text-sky-200 px-3 py-1 rounded-full border border-sky-700">HTML/CSS/JS</span>
+                <span class="bg-sky-900 text-sky-200 px-3 py-1 rounded-full border border-sky-700">Git/GitHub</span>
+                <span class="bg-sky-900 text-sky-200 px-3 py-1 rounded-full border border-sky-700">SQL</span>
+            </div>
+        </section>
+
+        <!-- Dự án -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold mb-6 border-b border-sky-500 pb-2">Dự án tiêu biểu</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="tech-card bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-bold text-sky-400">Ứng dụng Quản lý [Tên dự án]</h3>
+                    <p class="text-sm text-slate-400 mt-2 mb-4">Mô tả ngắn: Ứng dụng giúp giải quyết vấn đề... sử dụng React và Node.js.</p>
+                    <a href="#" class="text-sky-500 hover:underline text-sm font-medium">Xem trên GitHub →</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="tech-card bg-slate-800 p-5 rounded-xl border border-slate-700">
+                    <h3 class="text-xl font-bold text-sky-400">Website [Tên dự án]</h3>
+                    <p class="text-sm text-slate-400 mt-2 mb-4">Dự án môn học: Xây dựng hệ thống... áp dụng mô hình MVC.</p>
+                    <a href="#" class="text-sky-500 hover:underline text-sm font-medium">Xem trên GitHub →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chân trang -->
+        <footer class="text-center text-slate-500 pt-10 border-t border-slate-800">
+            <p>&copy; 2024 - Thiết kế bởi [Tên của bạn]</p>
+        </footer>
+    </div>
+</body>
+</html>
